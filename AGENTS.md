@@ -74,7 +74,7 @@ npm pack --dry-run     # verify dist-only tarball
 
 ## Coding Standards
 
-- TypeScript strict mode, ES2022, Node 22, CommonJS.
+- TypeScript strict mode, ES2022, Node 24, CommonJS.
 - Use `@jonverrier/prompt-repository` error classes (`InvalidParameterError`, `InvalidOperationError`, `ConnectionError`) — never raw `Error`.
 - Interface prefix `I`, enum prefix `E`, enum members prefix `k`.
 - JSDoc on public modules/functions; copyright header on source files.

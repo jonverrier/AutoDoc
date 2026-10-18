@@ -4,7 +4,7 @@
   "description": "AutoDoc — automated C4 architecture documentation for TypeScript projects",
   "private": false,
   "engines": {
-    "node": "22.x"
+    "node": "24.x"
   },
   "repository": {
     "type": "git",

@@ -48,7 +48,7 @@ These names come from the Strong AI tooling convention. Override them with `--co
 
 AutoDoc is published to **GitHub Packages** as `@jonverrier/auto-doc` with an `auto-doc` CLI binary. The legacy `c4-auto` binary name remains available as a compatibility alias.
 
-**Prerequisites:** Node.js 22, `OPENAI_API_KEY` when generating docs, GitHub Packages auth for install.
+**Prerequisites:** Node.js 24, `OPENAI_API_KEY` when generating docs, GitHub Packages auth for install.
 
 **`.npmrc`** (repo root):
 
