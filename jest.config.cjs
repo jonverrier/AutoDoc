@@ -5,8 +5,7 @@
 
 /** @type {import('jest').Config} */
 const tsJestTransform = {
-   '^.+\\.ts$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.jest.json' }],
-   '\\.md$': '<rootDir>/test/md-transform.js'
+   '^.+\\.ts$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.jest.json' }]
 };
 
 /** @type {import('jest').Config} */
@@ -25,7 +24,8 @@ module.exports = {
             '**/RollupC4Visitor.test.ts',
             '**/C4ReadmeUtils.test.ts',
             '**/generate-docs-cli.test.ts',
-            '**/VisitorFactory.test.ts'
+            '**/VisitorFactory.test.ts',
+            '**/DesignContextUtils.test.ts'
          ],
          transform: tsJestTransform,
          collectCoverageFrom: ['src/**/*.ts', '!src/**/*.d.ts'],
@@ -45,6 +45,7 @@ module.exports = {
             '**/C4ReadmeUtils.test.ts',
             '**/generate-docs-cli.test.ts',
             '**/VisitorFactory.test.ts',
+            '**/DesignContextUtils.test.ts',
             '**/DocumentationGenerator.integration.test.ts'
          ],
          transform: tsJestTransform,

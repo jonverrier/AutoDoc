@@ -31,7 +31,7 @@
     "test:ci": "jest --selectProjects ci",
     "test:integration": "jest --selectProjects integration",
     "test:e2e": "jest --selectProjects e2e",
-    "cover": "jest --selectProjects ci --coverage --coverageReporters=html text lcov"
+    "cover": "jest --selectProjects ci --coverage --coverageReporters=html --coverageReporters=text --coverageReporters=lcov"
   },
   "dependencies": {
     "@jonverrier/prompt-repository": "^0.3.23",
